@@ -1,0 +1,90 @@
+/* Conteneur global */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+/* Pour centrer le contenu horizontalement dans la page */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style du logo */
+.logo a {
+    font-family: 'Roboto', sans-serif; /* Assurez-vous que la police est chargée */
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #D32F2F; /* Couleur rouge comme dans l'image */
+    text-decoration: none;
+    letter-spacing: 0.2em;
+}
+
+.logo img {
+    max-width: 216px; /* Taille du logo */
+    height: auto;
+}
+
+/* Style du menu */
+.main-navigation .menu {
+    display: flex;
+    list-style: none;
+    gap: 40px; /* Espacement entre les éléments */
+}
+
+.main-navigation .menu li a {
+    font-family: 'space mono', sans-serif;
+    font-size: 16px;
+    color: #000; /* Couleur noire */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.main-navigation .menu li a:hover {
+    color: #D32F2F; /* Changement de couleur au survol */
+}
+
+
+
+.footer-nav-container {
+    padding-top: 20px;
+}
+
+
+/* Styliser le menu du footer */
+.footer-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centrer les éléments */
+    border-top: 1px solid #000000;
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-right: 50px; /* Espace entre les liens */
+}
+
+.footer-menu li a {
+    color: #000;
+    font-family: 'space mono', sans-serif;
+    text-decoration: none;
+    font-size: 14px; /* Taille de la police */
+}
+
+
+

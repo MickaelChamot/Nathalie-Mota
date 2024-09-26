@@ -1,0 +1,10 @@
+[23-Sep-2024 20:33:18 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Sep-2024 21:35:50 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Sep-2024 21:36:12 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Sep-2024 21:45:49 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Sep-2024 21:49:41 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[23-Sep-2024 21:50:56 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[26-Sep-2024 04:13:24 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-content/themes/nathalie Mota/functions.php on line 15
+[26-Sep-2024 04:13:24 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[26-Sep-2024 04:13:24 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[26-Sep-2024 04:15:24 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-content/themes/nathalie Mota/functions.php on line 15
