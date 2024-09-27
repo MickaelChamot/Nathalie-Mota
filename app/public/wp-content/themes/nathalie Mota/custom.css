@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    width: auto;
 }
 
 .site-header {
@@ -59,6 +60,7 @@
 }
 
 
+/* FOOTER */
 
 .footer-nav-container {
     padding-top: 20px;
@@ -85,6 +87,112 @@
     text-decoration: none;
     font-size: 14px; /* Taille de la police */
 }
+
+/* Style de la modale */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+    width: 40%;
+}
+
+.modal-header img {
+    width: 100%;
+    height: auto;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.custom-contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.custom-contact-form label {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.custom-contact-form input[type="text"],
+.custom-contact-form input[type="email"],
+.custom-contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+}
+
+.custom-contact-form textarea {
+    height: 150px;
+}
+
+.custom-contact-form input[type="submit"] {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-contact-form input[type="submit"]:hover {
+    background-color: #e0e0e0;
+}
+
+/* Optionnel : pour ajuster l'alignement des labels et des champs */
+.custom-contact-form input,
+.custom-contact-form textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Style du bouton */
+.custom-contact-form input[type="submit"] {
+    background-color: #999;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+
+.custom-contact-form input[type="submit"]:hover {
+    background-color: #666;
+}
+
 
 
 
