@@ -9,3 +9,10 @@
 [26-Sep-2024 04:13:24 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
 [26-Sep-2024 04:15:24 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-content/themes/nathalie Mota/functions.php on line 15
 [27-Sep-2024 07:57:53 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[30-Sep-2024 20:23:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twenty_twenty_one_get_icon_svg() in /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-content/themes/nathalie Mota/single.php:37
+Stack trace:
+#0 /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-blog-header.php(19): require_once('/Users/chamotmi...')
+#2 /Users/chamotmickael/Local Sites/nathalie-mota/app/public/index.php(17): require('/Users/chamotmi...')
+#3 {main}
+  thrown in /Users/chamotmickael/Local Sites/nathalie-mota/app/public/wp-content/themes/nathalie Mota/single.php on line 37

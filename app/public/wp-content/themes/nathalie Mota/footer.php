@@ -9,9 +9,9 @@
     }
     ?>
     <?php get_template_part('template-part/modal-contact'); ?>
- 
 </footer>
 <?php wp_footer() ?>
+
 </body>
 
 </html>
